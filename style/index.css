@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' ,sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#03a4a9,#90bafc);
+    color: #fff;
+    padding: 10px;
+}
+.calculator {
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.calculator h1 {    font-size: 50px;
+}
+.calculator h1 span {
+    color: #fff76f;
+}
+.dateInput {
+    margin: 50px;
+    padding: 40px;
+    background: rgba(255, 225, 255, 0.3);
+    display: flex;
+    align-items: center;
+
+}
+
+.dateInput input {
+    flex: 1;
+    margin-right: 20px;
+    padding: 15px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.dateInput button {
+    background: #76ff76;
+    border: 2px;
+    outline: 0;
+    padding: 13px 27px;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+}
+.dateInput input {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+
+}
+#result {
+    font-size: 20px;
+
+}
+#result span{
+    color: #15a5a5;
+    font-size: 24px;
+}
+
+#main span{
+    border: 5px;
+    color: rgb(200, 255, 0);
+    background-color: rgba(255, 225, 255, 0.3);
+    font-size: 30px;
+
+}
+#description span{
+    
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #daff33; /* Use a vibrant color like bright orange */
+    border-radius: 10px;
+    
+  }
+#main {
+    text-align: center;
+    border-radius: 2px;
+    padding: 1rem;
+}
+ol{
+    background-color: #333;
+    margin: 2px;
+    border-radius: 5px;
+    list-style-type: square;
+  list-style-position: outside;
+  margin: 1rem;
+  padding: 1rem;
+    
+}
+  
